@@ -9,15 +9,7 @@
 // console.log() è nostro amico.
 // Quando un pezzo di codice funziona, chiediamoci se possiamo scomporlo in funzioni più piccole.
 
-const teamMembers = [
-    {
-        name: 'Angela Caroll',
-
-        role: 'Chief Editor',
-
-        image: 'img/angela-caroll-chief-editor.jpg'
-    }
-]
+const teamMembers = [];
 
 const teamContainer = document.querySelector('.team-container');
 
