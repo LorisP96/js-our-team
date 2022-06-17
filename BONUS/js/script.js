@@ -21,11 +21,7 @@ const teamMembers = [
 
 const teamContainer = document.querySelector('.team-container');
 
-
-
 const button = document.getElementById('addMemberButton');
-
-
 
 button.addEventListener('click', 
     function() {
