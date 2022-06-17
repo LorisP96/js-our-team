@@ -66,14 +66,3 @@ function inputObject (object, container) {
         </div>
     `
 }
-
-// scorro l'array
-for(let i = 0; i < teamMembers.length; i++) {
-
-    // creo una nuova card
-    partnerTeam = teamMembers[i];
-    
-    // inserisco nel container la card
-    inputObject(partnerTeam, teamContainer);
-
-}
